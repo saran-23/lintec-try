@@ -19,15 +19,6 @@ body {
   width: 100%;
 }
 
-h2 {
-  color: #fff;
-  font-size: 90px;
-  text-align: center;
-  width: 100%;
-  display: table-cell;
-  vertical-align: middle;
-  clear: both;
-}
 /* 
   body{
     background-color: #0d47a1;
@@ -125,14 +116,30 @@ li a:hover {
 .txt {
   margin-top: 80px;
 }
-.h4 {
+h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 200px;
+  font-weight: bold;
+}
+ h5 {
+   text-align: center;
+   color: #fff;
+   font-weight: bold;
+  font-size: 50px;
+}
+/* .txt title-2 h4 {
+  font-size: 200px;
+} */ */
+/* 
+.title h4 {
   font-family: "league spartan";
   font-size: 60px;
   text-align: center;
   font-weight: bold;
-  color: #fff;
+  color: yellow;
   letter-spacing: 0em;
-}
+} */
 
 
 .content {
@@ -141,7 +148,7 @@ li a:hover {
   width: 100%;
 }
 .content h2 {
-  color: #fff;
+  color: red;
   font-size: 90px;
   text-align: center;
   width: 100%;
@@ -162,7 +169,15 @@ li a:hover {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+    h5 {
+      font-size: 30px;
+    }  
+  h3 {
+      color: red;
+      font-size: 50px;
+    }
+
   .desc {
     font-size: 30px;
   }
